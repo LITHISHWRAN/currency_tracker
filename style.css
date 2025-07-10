@@ -136,13 +136,42 @@ button:active {
   color: #ffdfae;
 }
 
-/* 📱 Mobile Responsiveness */
+/* 📱 Enhanced Mobile Responsiveness */
 @media screen and (max-width: 480px) {
+  body {
+    padding: 20px 8px;
+    align-items: flex-start;
+  }
+
   .container {
-    padding: 24px 18px;
+    padding: 20px 14px;
+    max-width: 100%;
+    border-radius: 14px;
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input,
+  select {
+    padding: 10px;
+    font-size: 0.95rem;
+    background-position: right 10px center;
+  }
+
+  button {
+    padding: 10px 12px;
+    font-size: 1rem;
+  }
+
+  #result {
+    font-size: 1.3rem;
   }
 }
